@@ -1,0 +1,33 @@
+![LOGO](http://r7jiu5wkl.hd-bkt.clouddn.com/images/2022/02/19/16-34-57-167.png)
+
+# Labzen BOM
+
+![Labzen Dependencies](https://img.shields.io/badge/Labzen-BOM-green)
+![Maven Central](https://img.shields.io/maven-central/v/cn.labzen/labzen-bom)
+![GitHub](https://img.shields.io/github/license/labzen/dependencies)
+
+![GitHub last commit](https://img.shields.io/github/last-commit/labzen/labzen-bom)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/labzen/labzen-bom)
+
+Labzen BOM 为所有项目提供依赖版本定义
+
+## Installation
+
+Install with Maven
+
+```xml
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>cn.labzen</groupId>
+        <artifactId>labzen-bom</artifactId>
+        <version>{{the latest version}}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+```
+## Documentation
+
+依赖管理会在`cn.labzen:parent`中被引入，除非不选择基于`cn.labzen:parent`作父Maven POM来创建项目，否则不需要理会`Installation`
