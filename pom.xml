@@ -45,7 +45,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
     <!--Jul 24, 2025-->
-    <bom.spring.boot>3.5.4</bom.spring.boot>
+    <bom.spring.boot>3.5.6</bom.spring.boot>
     <!--May 29, 2025-->
     <bom.spring.cloud>2025.0.0</bom.spring.cloud>
     <!--Jul 18, 2025-->
@@ -58,31 +58,31 @@
     <spring.shell.version>3.4.0</spring.shell.version>
 
     <slf4j.version>2.0.17</slf4j.version>
-    <logback.version>1.5.18</logback.version>
+    <logback.version>1.5.21</logback.version>
     <reload4j.version>1.2.26</reload4j.version>
 
-    <commons.lang3.version>3.15.0</commons.lang3.version>
-    <commons.io.version>2.17.0</commons.io.version>
-    <commons.fileupload.version>1.5</commons.fileupload.version>
-    <commons.fileupload2.version>2.0.0-M2</commons.fileupload2.version>
-    <commons.compress.version>1.26.2</commons.compress.version>
+    <commons.lang3.version>3.18.0</commons.lang3.version>
+    <commons.io.version>2.20.0</commons.io.version>
+    <commons.fileupload.version>1.6.0</commons.fileupload.version>
+    <commons.fileupload2.version>2.0.0-M4</commons.fileupload2.version>
+    <commons.compress.version>1.28.0</commons.compress.version>
     <commons.crypto.version>1.2.0</commons.crypto.version>
     <commons.email.version>1.6.0</commons.email.version>
-    <commons.net.version>3.11.1</commons.net.version>
+    <commons.net.version>3.12.1</commons.net.version>
     <commons.beanutils.version>1.11.0</commons.beanutils.version>
 
     <server.jetty.version>12.0.23</server.jetty.version>
     <server.undertow.version>2.3.18.Final</server.undertow.version>
     <server.tomcat.version>11.0.9</server.tomcat.version>
 
-    <mysql.version>8.4.0</mysql.version>
-    <postgresql.version>42.6.2</postgresql.version>
-    <sqlite.version>3.46.1.3</sqlite.version>
+    <mysql.version>9.3.0</mysql.version>
+    <postgresql.version>42.7.8</postgresql.version>
+    <sqlite.version>3.50.3.0</sqlite.version>
     <h2.version>2.3.232</h2.version>
-    <druid.version>1.2.23</druid.version>
+    <druid.version>1.2.27</druid.version>
     <mybatis.version>3.5.19</mybatis.version>
-    <mybatis-spring.version>2.1.2</mybatis-spring.version>
-    <mybatis-flex.version>1.10.9</mybatis-flex.version>
+    <mybatis-spring.version>3.0.5</mybatis-spring.version>
+    <mybatis-flex.version>1.11.1</mybatis-flex.version>
     <mybatis-plus.version>3.5.3.2</mybatis-plus.version>
     <mybatis-plus-dynamic.version>4.3.1</mybatis-plus-dynamic.version>
     <mybatis-plus-join.version>1.4.13</mybatis-plus-join.version>
@@ -90,11 +90,11 @@
     <mybatis-page-helper-starter.version>2.1.0</mybatis-page-helper-starter.version>
     <p6spy.version>3.9.1</p6spy.version>
 
-    <protobuf.version>4.29.5</protobuf.version>
-    <grpc.version>1.70.0</grpc.version>
-    <okhttp3.version>4.12.0</okhttp3.version>
+    <protobuf.version>4.31.1</protobuf.version>
+    <grpc.version>1.74.0</grpc.version>
+    <okhttp3.version>5.1.0</okhttp3.version>
     <okhttp-digest.version>3.1.1</okhttp-digest.version>
-    <retrofit.version>2.11.0</retrofit.version>
+    <retrofit.version>3.0.0</retrofit.version>
     <async-http-client.version>2.12.4</async-http-client.version>
     <usb.version>1.3.0</usb.version>
 
@@ -102,18 +102,20 @@
 
     <jsr305.version>3.0.2</jsr305.version>
     <spotbugs-annotations.version>4.8.6</spotbugs-annotations.version>
-    <guava.version>33.4.0-jre</guava.version>
-    <jackson.version>2.18.4</jackson.version>
+    <checker-qual.version>3.49.5</checker-qual.version>
+    <guava.version>33.4.8-jre</guava.version>
+    <jackson.version>2.19.2</jackson.version>
     <fastjson.version>2.0.53</fastjson.version>
-    <fastjson2.version>2.0.53</fastjson2.version>
+    <fastjson2.version>2.0.58</fastjson2.version>
     <snakeyaml.version>2.3</snakeyaml.version>
-    <lombok.version>1.18.34</lombok.version>
+    <lombok.version>1.18.38</lombok.version>
     <cglib.version>3.3.0</cglib.version>
-    <jna.version>5.16.0</jna.version>
-    <oshi.version>6.6.6</oshi.version>
+    <objenesis.version>3.4</objenesis.version>
+    <jna.version>5.17.0</jna.version>
+    <oshi.version>6.8.2</oshi.version>
     <javacv.version>1.5.11</javacv.version>
-    <caffeine.version>3.1.8</caffeine.version>
-    <redisson.version>3.38.1</redisson.version>
+    <caffeine.version>3.2.2</caffeine.version>
+    <redisson.version>3.50.0</redisson.version>
     <ehcache.old.version>2.10.9.2</ehcache.old.version>
     <ehcache.version>3.10.8</ehcache.version>
     <jaxb.api.old.version>2.4.0-b180830.0359</jaxb.api.old.version>
@@ -121,7 +123,7 @@
     <jaxb.runtime.version>4.0.5</jaxb.runtime.version>
     <user-agent-utils.version>1.21</user-agent-utils.version>
     <yauaa.version>7.31.0</yauaa.version>
-    <poi.version>5.3.0</poi.version>
+    <poi.version>5.4.1</poi.version>
     <kxml2.version>2.3.0</kxml2.version>
     <xstream.version>1.4.21</xstream.version>
     <reflections.version>0.10.2</reflections.version>
@@ -135,8 +137,7 @@
     <mapstruct.projectlombok.version>0.2.0</mapstruct.projectlombok.version>
     <jsoup.version>1.18.3</jsoup.version>
     <springfox.version>3.0.0</springfox.version>
-    <!-- 这是最后一个基于1.8jdk版本的 -->
-    <t-io.version>3.8.6.v20240801-RELEASE</t-io.version>
+    <t-io.version>3.8.7.v20250626-RELEASE</t-io.version>
     <freemarker.version>2.3.34</freemarker.version>
     <velocity.version>2.4.1</velocity.version>
     <velocity-tools.version>3.1</velocity-tools.version>
@@ -369,7 +370,7 @@
       </dependency>
       <dependency>
         <groupId>com.alibaba</groupId>
-        <artifactId>druid-spring-boot-starter</artifactId>
+        <artifactId>druid-spring-boot-3-starter</artifactId>
         <version>${druid.version}</version>
       </dependency>
       <dependency>
@@ -389,6 +390,11 @@
       </dependency>
       <dependency>
         <groupId>com.mybatis-flex</groupId>
+        <artifactId>mybatis-flex-core</artifactId>
+        <version>${mybatis-flex.version}</version>
+    </dependency>
+      <dependency>
+        <groupId>com.mybatis-flex</groupId>
         <artifactId>mybatis-flex-spring</artifactId>
         <version>${mybatis-flex.version}</version>
       </dependency>
@@ -396,6 +402,16 @@
         <groupId>com.mybatis-flex</groupId>
         <artifactId>mybatis-flex-spring-boot-starter</artifactId>
         <version>${mybatis-flex.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.mybatis-flex</groupId>
+        <artifactId>mybatis-flex-spring-boot3-starter</artifactId>
+        <version>${mybatis-flex.version}</version>
+      </dependency>
+      <dependency>
+          <groupId>com.mybatis-flex</groupId>
+          <artifactId>mybatis-flex-processor</artifactId>
+          <version>${mybatis-flex.version}</version>
       </dependency>
       <dependency>
         <groupId>com.baomidou</groupId>
@@ -542,6 +558,11 @@
         <version>${spotbugs-annotations.version}</version>
       </dependency>
       <dependency>
+        <groupId>org.checkerframework</groupId>
+        <artifactId>checker-qual</artifactId>
+        <version>${checker-qual.version}</version>
+      </dependency>
+      <dependency>
         <groupId>com.google.guava</groupId>
         <artifactId>guava</artifactId>
         <version>${guava.version}</version>
@@ -610,6 +631,11 @@
         <groupId>cglib</groupId>
         <artifactId>cglib</artifactId>
         <version>${cglib.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.objenesis</groupId>
+        <artifactId>objenesis</artifactId>
+        <version>{objenesis.version}</version>
       </dependency>
       <dependency>
         <groupId>net.java.dev.jna</groupId>
