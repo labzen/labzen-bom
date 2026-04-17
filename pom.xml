@@ -6,7 +6,7 @@
 
   <groupId>cn.labzen</groupId>
   <artifactId>labzen-bom</artifactId>
-  <version>2.1</version>
+  <version>2.2-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>Labzen.BOM</name>
   <description>Labzen BOM</description>
